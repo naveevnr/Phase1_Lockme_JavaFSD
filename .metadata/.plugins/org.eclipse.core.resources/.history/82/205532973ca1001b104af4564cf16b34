@@ -9,7 +9,7 @@ public class Welcome {
 		System.out.println("Welcome to the new Lockers.com");
 		System.out.println("Developed By Naveenraj Venkatachalam \n");
 		System.out.println("******_______********");
-		System.out.println("Select the option: \n" + "1.Login \n" + "2.Signup/Register ");
+		System.out.println("Select option: \n" + "1.Login User\n" + "2.Signup/Register User");
 		int option = new Scanner(System.in).nextInt();
 		switch (option) {
 
@@ -25,7 +25,7 @@ public class Welcome {
 				UserInterface ui = new UserInterface();
 				ui.userInterface();
 			} else {
-				System.out.println("You are Not a valid User, Please Retry ");
+				System.out.println("You are Not a valid User ");
 			}
 			break;
 

@@ -53,7 +53,7 @@ public class Login {
 						new UserInterface().exit();
 					} else {
 						System.out.println("Invalid user name / password \n you will be exited from application after 3 unsuccesfull login attempts");
-						System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+						System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-\n");
 
 					}
 
